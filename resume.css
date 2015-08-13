@@ -1,22 +1,36 @@
+img {
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+}
 body {
-font-family: "Meiryo", "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
-background-color: rgba(219, 218, 214, 0.62)
+    font-family: "Meiryo", "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    background-color: rgba(219, 218, 214, 0.62)
+}
+h2 {
+    font-size: 200%;
 }
 .header h1 {
-font-size:4em;
-margin-top: 0px;
-color:azure;
+    font-size: 400%;
+    margin-top: 0px;
+    color: azure;
 }
 .header div {
-background-color: rgba(0, 0, 0, 0.85);
-color:azure;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: azure;
+    border-radius: 5px;
 }
-
-.header { 
-background-color: rgba(2, 2, 2, 0.65);
-margin: -20px -10px -10px 0px;
-padding: 40px 50px 0px 45px;
+.header a:link {
+    color: azure;
+}
+.header {
+    background-color: rgba(2, 2, 2, 0.65);
+    margin: -20px -10px -10px 0px;
+    padding: 40px 50px 0px 45px;
+}
+table {
+    width: 80%;
 }
 .content {
-padding: 0px 50px 0px 50px;
+    padding: 0px 50px 0px 50px;
 }
