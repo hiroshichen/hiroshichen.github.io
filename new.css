@@ -1,0 +1,46 @@
+*{
+font-family: "Meiryo", "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;   
+}
+.navbar{
+ background-color: gainsboro;
+ color: grey;
+ position: fixed;
+ z-index: 100;
+}
+.navbar a{
+ color:dimgray;
+}
+.jumbotron{
+ background-color:whitesmoke;
+ border-style:groove;
+ font-size:1em;
+}  
+.jumbotron ul{
+ font-size: 1.4em;   
+}
+#main{
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
+ margin-top: 6em;
+ background-color: dimgray;
+ color: white;
+}
+#main a{ 
+ color: white;
+}
+#main small{
+ color:antiquewhite;
+}
+#main img{
+float: right;
+max-width: 60%;
+
+}
+.firstt{
+ position: relative;
+ margin-left: -1.7em;
+ margin-top: 7em;
+}
+.table{
+ font-size:1.4em ;   
+}
